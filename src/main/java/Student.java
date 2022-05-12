@@ -16,6 +16,6 @@ public class Student implements InfoGet{
     public void printInfo(){
         System.out.printf(" %s = %s %n",type, getPersonCount());
         System.out.printf(" How many like work = %s %n", getAmountLike());
-        System.out.printf("It's a %s percent %n %n", String.valueOf(getPersonCount()*getAmountLike()/100.0));
+        System.out.printf("It's a %s  percent %n %n", String.valueOf(getPersonCount()*getAmountLike()/100.0));
     }
 }
