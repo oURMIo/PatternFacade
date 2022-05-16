@@ -13,6 +13,7 @@ public class Student implements InfoGet{
         return amountLike;
     }
 
+    @Override
     public void printInfo(){
         System.out.printf(" %s = %s %n",type, getPersonCount());
         System.out.printf(" How many like work = %s %n", getAmountLike());
